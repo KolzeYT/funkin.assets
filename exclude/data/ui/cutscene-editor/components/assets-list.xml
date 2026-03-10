@@ -1,0 +1,10 @@
+<vbox style="padding-left: 1060px; padding-bottom: 520px;">
+            <section-header text="Objects"/>
+                    <listview id="objects" width="200" height="300" selectedIndex="0">
+                        <item-renderer layout="horizontal" width="100%">
+                            <label width="100%" id="text" verticalAlign="center" />
+                            <data></data>
+                        </item-renderer>
+                    </listview>
+                    <button id="addButton" width="200" text="+" style="color: black; background: #51933A #58CF64; border: 1px solid #000000; font-size: 16px;"/>
+</vbox>

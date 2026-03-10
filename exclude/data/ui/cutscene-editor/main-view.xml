@@ -3,4 +3,5 @@
 	<import source="components/menu.xml" />
 	<import source="components/style.xml" />
 	<spacer height="100%" />
+	<import source="components/assets-list.xml" />
 </vbox>

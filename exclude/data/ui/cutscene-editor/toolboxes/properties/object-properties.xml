@@ -3,7 +3,7 @@
   <vbox width="100%" height="100%">
     <frame text="Properties" width="100%" height="100%" horizontalAlign="center">
       <vbox width="100%" height="100%">
-        <scrollview width="100%" height="100%" contentWidth="100%">
+        <scrollview width="100%" height="100%" contentWidth="100%" id="objScrollView">
           <grid columns="2" width="100%">
             <label text="Position (X)" verticalAlign="center" horizontalAlign="center" />
             <number-stepper id="objPosX" step="5" pos="0" />
@@ -23,8 +23,8 @@
             <number-stepper id="objScrollX" step="0.05" pos="1" precision="2" />
             <label text="Scroll Factor (Y)" verticalAlign="center" horizontalAlign="center" />
             <number-stepper id="objScrollY" step="0.05" pos="1" precision="2" />
-            <label text="Dance every n Beats" verticalAlign="center" horizontalAlign="center" />
-            <number-stepper id="objDance" step="1" pos="0" min="0" />
+            <!-- <label text="Dance every n Beats" verticalAlign="center" horizontalAlign="center" />
+            <number-stepper id="objDance" step="1" pos="0" min="0" /> -->
             <label text="Antialiasing" verticalAlign="center" horizontalAlign="center" />
             <checkbox id="objPixel" text="Enabled" />
             <label text="Flip Horizontally" verticalAlign="center" horizontalAlign="center" />
