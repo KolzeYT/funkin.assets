@@ -1,6 +1,4 @@
-import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.math.FlxBasePoint;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxTimer;
@@ -18,9 +16,7 @@ import flixel.text.FlxText;
 import flixel.text.FlxTextBorderStyle;
 import funkin.util.TouchUtil;
 import funkin.ui.FullScreenScaleMode;
-import funkin.Preferences;
 
-// We have to use FlxBasePoint in scripts because FlxPoint is inlined and not available in scripts
 class EggnogErectSong extends Song
 {
   var hasPlayedCutscene:Bool = false;
