@@ -3,5 +3,9 @@
 	<import source="components/menu.xml" />
 	<import source="components/style.xml" />
 	<spacer height="100%" />
+<<<<<<< Updated upstream
+=======
+	<import source="components/timeline.xml" />
+>>>>>>> Stashed changes
 	<import source="components/assets-list.xml" />
 </vbox>
