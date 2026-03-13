@@ -3,5 +3,6 @@
 	<import source="components/menu.xml" />
 	<import source="components/style.xml" />
 	<spacer height="100%" />
-	<import source="components/bottom-bar.xml" />
+	<import source="components/timeline.xml" />
+	<import source="components/assets-list.xml" />
 </vbox>

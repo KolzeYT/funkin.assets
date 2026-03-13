@@ -1,22 +1,4 @@
-<<<<<<< Updated upstream
-<scrollview width="200" height="200">
-            <grid columns="3">
-                <image resource="haxeui-core/styles/default/haxeui_small.png" />
-                <image resource="haxeui-core/styles/default/haxeui_small.png" />
-                <image resource="haxeui-core/styles/default/haxeui_small.png" />
-
-                <image resource="haxeui-core/styles/default/haxeui_small.png" />
-                <image resource="haxeui-core/styles/default/haxeui_small.png" />
-                <image resource="haxeui-core/styles/default/haxeui_small.png" />
-
-                <image resource="haxeui-core/styles/default/haxeui_small.png" />
-                <image resource="haxeui-core/styles/default/haxeui_small.png" />
-                <image resource="haxeui-core/styles/default/haxeui_small.png" />
-            </grid>
-        </scrollview>
-=======
 <?xml version="1.0" encoding="utf-8" ?>
 <vbox width="100%" height="100%" style="padding-top: 420px">
     <box width="100%" height="100%" styleName="bottomBar" verticalAlign="bottom"/>
 </vbox>
->>>>>>> Stashed changes
